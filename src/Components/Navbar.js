@@ -24,16 +24,16 @@ function NavbarComponent(props) {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <div className="switch-route">
-                    <Switch>
-                        <Route exact path="/"><Home /></Route>
-                        <Route exact path="/about"><About /></Route>
-                        <Route exact path="/classes"><Classes /></Route>
-                        <Route exact path="/pics"><Pics /></Route>
-                        <Route exact path="/faq"><FAQ /></Route>
-                        <Route exact path="/contact"><Contact /></Route>
-                    </Switch>
-                </div>
+            </div>
+            <div className="switch-route">
+                <Switch>
+                    <Route exact path="/"><Home /></Route>
+                    <Route exact path="/about"><About /></Route>
+                    <Route exact path="/classes"><Classes /></Route>
+                    <Route exact path="/pics"><Pics /></Route>
+                    <Route exact path="/faq"><FAQ /></Route>
+                    <Route exact path="/contact"><Contact /></Route>
+                </Switch>
             </div>
         </div>
     )

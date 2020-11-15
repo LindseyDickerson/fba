@@ -1,5 +1,6 @@
 ul {
     list-style-type: none;
+    display: inline-flex;
 }
 
 a {
@@ -10,14 +11,17 @@ a {
 li {
     font-family: var(--font-main);
     font-size: large;
+    padding: 20px;
+    
 }
 
 .navbar-list-styling {
     display: flex;
     justify-content: flex-start;
+    
 }
 
 .navbarDiv {
     display: flex;
-    flex-direction: row;
+   
 }
